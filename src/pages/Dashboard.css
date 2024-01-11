@@ -1,0 +1,28 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.responsiveNavBar {
+    display: none;
+}
+
+.newActive {
+    background-color: #4d4dff;
+    border-radius: 7px;
+    padding: 5px;
+    color: white;
+}
+
+@media only screen and (max-width : 435px) {
+    .responsiveNavBar {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,101 @@
+.deskNavContainer {
+    display: flex;
+    flex-direction: column;
+    width: 60px;
+    height: 100vh;
+    justify-content: space-between;
+}
+
+.desktopNavTopCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.deskTopNav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logoCont {
+    display: flex;
+    justify-content: center;
+    margin: 15px 10px 0px;
+}
+
+/* .searchCont {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    margin: 0px auto;
+} */
+
+.logoImg {
+    width: 30px;
+    height: 30px;
+}
+
+/* .searchIc {
+    width: 20px;
+    height: 20px; 
+    color: gray;
+} */
+
+
+/* middle nav styling */
+.deskMiddleNav {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+/* .homeIcCont {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    margin: 15px auto 0px;
+    
+} */
+
+.active {
+    background-color: #4d4dff;
+    border-radius: 7px;
+}
+.activeIc {
+    color: white;
+}
+
+.iconCont {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    margin: 15px auto 0px;
+    color: gray;
+}
+
+.iconContBt {
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    margin: 0px auto 15px;
+    color: gray;
+}
+
+.icSize {
+    width: 20px;
+    height: 20px;
+}
+
+/* .homeIc {
+    width: 20px;
+    height: 20px;
+    
+} */
+
+/* bottom nav styling */
+
+.deskBottomNav {
+    display: flex;
+    flex-direction: column;
+}
