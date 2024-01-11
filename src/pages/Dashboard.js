@@ -18,12 +18,14 @@ const Dashboard = () => {
       <WelcomeBlock/>
       
     </div>
-    <div className='responsiveNavBar'>
-      <div className='navIcCont'><GoHome className="icSize newActive"/></div>
-      <div className='navIcCont'><FaRegAddressCard className="icSize"/></div>
-      <div className='navIcCont'><BsCardList className="icSize"/></div>
-      <div className='navIcCont'><FaRegUser className="icSize"/></div>
-      <div className='navIcCont'><FaMagnifyingGlass className="icSize" /></div>
+    <div className=' pos-fix'>
+      <div className='responsiveNavBar'>
+        <div className='navIcCont'><GoHome className="icSize newActive"/></div>
+        <div className='navIcCont'><FaRegAddressCard className="icSize"/></div>
+        <div className='navIcCont'><BsCardList className="icSize"/></div>
+        <div className='navIcCont'><FaRegUser className="icSize"/></div>
+        <div className='navIcCont'><FaMagnifyingGlass className="icSize" /></div>
+      </div>
     </div>
   </>
   )

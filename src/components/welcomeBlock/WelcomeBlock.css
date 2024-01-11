@@ -265,6 +265,9 @@
 }
 
 /* last cards  */
+.welcomeLast {
+    padding-bottom: 50px;
+}
 
 .wl-Container {
     margin: 50px;
